@@ -17,9 +17,9 @@ from openpyxl.chart import BarChart, Reference
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # --- Constants ---
-DNAC_IP = "10.127.103.143"
-USERNAME = "haraval"
-PASSWORD = "d68{1@k2"
+DNAC_IP = "1.1.1.1"
+USERNAME = "admin"
+PASSWORD = "admin"
 BASE_URL = f"https://{DNAC_IP}/dna"
 VERIFY_SSL = False
 
