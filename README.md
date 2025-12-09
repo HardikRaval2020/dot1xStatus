@@ -19,3 +19,6 @@ python CC_dot1x_5f.py
 Required Input :
 
 Please ensure to provide your Catalyst Center IP address, username, and password within the configuration file before running the script.
+
+<img width="769" height="338" alt="image" src="https://github.com/user-attachments/assets/ff6a11f0-8dd3-45bd-ba8c-db143c8d8daa" />
+<img width="684" height="282" alt="image" src="https://github.com/user-attachments/assets/c8747e5b-3ee9-4b3c-b088-e075872883e9" />
