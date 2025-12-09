@@ -2,3 +2,4 @@ requests
 pandas
 tabulate
 openpyxl
+python-dotenv

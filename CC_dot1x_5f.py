@@ -8,18 +8,23 @@ import requests
 import time
 import urllib3
 import pandas as pd
+import os
+from dotenv import load_dotenv
 from openpyxl.utils import get_column_letter
 from openpyxl.styles import Font, Alignment, Border, Side
 from openpyxl import load_workbook
 from openpyxl.chart import BarChart, Reference
 
+# Load environment variables from .env file
+load_dotenv()
+
 # Suppress InsecureRequestWarning
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # --- Constants ---
-DNAC_IP = "10.127.103.143"
-USERNAME = "haraval"
-PASSWORD = "d68{1@k2"
+DNAC_IP = os.getenv("DNAC_IP")
+USERNAME = os.getenv("USERNAME")
+PASSWORD = os.getenv("PASSWORD")
 BASE_URL = f"https://{DNAC_IP}/dna"
 VERIFY_SSL = False
 
