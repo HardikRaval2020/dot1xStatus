@@ -1,6 +1,6 @@
 Overview :
 
-This script enables users to retrieve the 802.1X status of switches managed by Cisco Catalyst Center, exporting the results in XLS format (see attached sample). The script has been validated in a Cisco lab environment.
+This script enables users to retrieve the 802.1X status of switches managed by Cisco Catalyst Center, exporting the results in XLS format (see attached sample). The script has been validated in a Cisco lab environment. (CC ver 2.3.7.9)
 
 
 Features :
